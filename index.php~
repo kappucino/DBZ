@@ -44,7 +44,7 @@ default:require_once('defaut.php');break;
 }
 }
 else {
-	require_once('defaut.php');
+	default:require_once('defaut.php');break;
 	
 	}
 	

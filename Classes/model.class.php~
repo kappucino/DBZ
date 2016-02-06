@@ -34,19 +34,6 @@ class Model {
 
 }
 
-/*
-public fonction requete($sql){
-
-
-	
-	$res = $this->PDO->prepare($sql);
-	$res->execute();
-	return $res->fetchAll(PDO::FETCH_ASSOC);
-
-	
-	
-}*/
-
 
 
 }

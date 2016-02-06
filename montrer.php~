@@ -1,0 +1,10 @@
+<?php
+require_once("Classes/view.class.php");
+require_once("Classes/model.class.php");
+
+$MODEL = new Model ($PDO->CNX);
+
+
+
+
+?>

@@ -33,7 +33,7 @@ class View {
       </html>";
     }
     
-    public static function val_tab($t_name) {
+    public static function val_tab($t_name,$MODEL) {
 	
 	  $tab = "<div> : ".$_GET['T'];
 	  $tab .= "<table>";
