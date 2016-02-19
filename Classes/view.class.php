@@ -48,8 +48,11 @@ class View {
         foreach($TABLE as $J => $coucou){
         
         	$tab.= "<td>".$coucou."</td>";
+
         	}
         	 $tab .= "</td>";
+
+           $tab.='<td><a href="supp_val.php?id='.$TABLE['id'].'&T='.$_GET['T'].'"  ><img src="images/croix.png"></a></td>';
       }
       $tab .= "</table> ";
       $tab .= "</div>";

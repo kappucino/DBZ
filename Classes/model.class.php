@@ -34,6 +34,30 @@ class Model {
 
 }
 
+
+  
+    public  function supp_all($t) {
+
+
+  $req = "delete from ".$t; 
+  $res = $this->PDO->prepare($req);
+  $res->execute();
+ 
+
+}
+
+//probleme de syntax /!\
+
+
+    public  function supp_val($t,$v) {
+ $req = "delete from ".$t.'where id ='.$v; 
+  $res = $this->PDO->prepare($req);
+  $res->execute();
+}
+
+//.............................
+
+
 /*
 public fonction requete($sql){
 

@@ -37,7 +37,7 @@ if(isset($_GET['dir']) && !empty($_GET['dir'])) {
 switch($_GET['dir']){
 
 case 1: require_once('ajout.php'); break;
-case 2: require_once('suppr.php'); break;
+case 2: require_once('supp.php'); break;
 case 3: require_once('montre.php'); break;
 default:require_once('defaut.php');break;
 
